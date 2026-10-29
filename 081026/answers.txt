@@ -1,0 +1,61 @@
+Section A 
+1. Meta
+2. Google
+3. Anthropic
+4. xAI
+5. Mistral AI
+6. OpenAI
+7. Video generation
+8. Google
+9. Image generation
+10. AI-assisted coding
+
+
+Section B 
+11. Large Language Model
+12. AI content generation
+13. AI instruction (input we give to ai)
+14. Behavior-defining instructions
+15. Multiple data types
+16. False AI output
+17. Text processing units
+18. Maximum input capacity
+19. Generating model output
+20. Specialized model training
+
+Section C
+21. Goal-oriented AI system
+22. Agents perform actions
+23. Calling external tools
+24. Model Context Protocol
+25. API authentication
+26. Request limit
+27. AI code editor
+28. Document analysis
+29. Meaning-based search
+30. Coding, debugging, documentation
+
+Section D 
+31. Speech to text
+32. Text to speech
+33. Text from images
+34. Image understanding model
+35. Text to video
+36. Content generation
+37. Parallel computation
+38. Neural Processing Unit
+39. Model data
+40. On-device AI
+
+Section E
+41. Publicly available weights
+42. Teacher-student compression
+43. Efficient fine-tuning
+44. Mixture of Experts
+45. Model performance test
+46. AI safety mechanism
+47. Instruction manipulation
+48. Personally Identifiable Information
+49. Privacy and security risks
+50. Verify reliable sources
+
