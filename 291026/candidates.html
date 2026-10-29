@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Candidates | Recruitment & Placement Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6fa;
+            color: #202b3c
+        }
+
+        header {
+            background: #173b70;
+            color: #fff;
+            padding: 16px 22px;
+            display: flex;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap
+        }
+
+        header h1 {
+            font-size: 20px;
+            margin: 0
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 13px
+        }
+
+        .layout {
+            display: flex;
+            min-height: calc(100vh - 70px)
+        }
+
+        nav {
+            background: #fff;
+            width: 205px;
+            padding: 18px 12px;
+            box-sizing: border-box;
+            border-right: 1px solid #dce2eb
+        }
+
+        nav a {
+            display: block;
+            padding: 10px 12px;
+            margin: 3px 0;
+            color: #173b70;
+            text-decoration: none;
+            border-radius: 4px
+        }
+
+        nav a:hover {
+            background: #eaf0fa
+        }
+
+        main {
+            padding: 24px;
+            flex: 1;
+            min-width: 0
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #173b70
+        }
+
+        h3 {
+            color: #243d61
+        }
+
+        .panel {
+            background: #fff;
+            border: 1px solid #dce2eb;
+            border-radius: 6px;
+            padding: 16px;
+            margin: 0 0 18px
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+            gap: 12px;
+            margin-bottom: 18px
+        }
+
+        .card {
+            background: #fff;
+            border: 1px solid #dce2eb;
+            border-radius: 6px;
+            padding: 15px
+        }
+
+        .number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #173b70;
+            margin-top: 8px
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background: #fff;
+            margin-top: 10px
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid #dce2eb;
+            text-align: left;
+            font-size: 14px
+        }
+
+        th {
+            background: #173b70;
+            color: #fff
+        }
+
+        tr:nth-child(even) {
+            background: #f7f9fc
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+            margin: 10px 0 5px
+        }
+
+        input,
+        select,
+        textarea {
+            box-sizing: border-box;
+            padding: 9px;
+            width: 100%;
+            border: 1px solid #cbd4e1;
+            border-radius: 4px;
+            background: #fff
+        }
+
+        button,
+        .button {
+            display: inline-block;
+            padding: 9px 14px;
+            border: 1px solid #173b70;
+            border-radius: 4px;
+            background: #173b70;
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+            margin: 8px 5px 0 0
+        }
+
+        .secondary {
+            background: #fff;
+            color: #173b70
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 7px;
+            border-radius: 12px;
+            background: #e6f4ea;
+            color: #23643a;
+            font-size: 12px;
+            font-weight: bold
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 14px
+        }
+
+        .muted {
+            color: #68778b;
+            font-size: 13px
+        }
+
+        footer {
+            text-align: center;
+            color: #718096;
+            font-size: 12px;
+            padding: 18px
+        }
+
+        @media(max-width:700px) {
+            .layout {
+                display: block
+            }
+
+            nav {
+                width: auto;
+                border-right: 0;
+                border-bottom: 1px solid #dce2eb
+            }
+
+            nav a {
+                display: inline-block
+            }
+
+            main {
+                padding: 14px;
+                overflow-x: auto
+            }
+
+            table {
+                min-width: 650px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>RECRUITMENT &amp; PLACEMENT MANAGEMENT SYSTEM</h1>
+            <p>Kiran Academy</p>
+        </div>
+        <div><strong>Recruiter</strong>
+            <p>recruiter@demo.com | <a style="color:#fff" href="login.html">Logout</a></p>
+        </div>
+    </header>
+    <div class="layout">
+        <nav aria-label="Main navigation"><a href="dashboard.html">Dashboard</a><a href="candidates.html"
+                aria-current="page">Candidates</a><a href="companies.html">Companies</a><a href="jobs.html">Jobs</a><a
+                href="applications.html">Applications</a><a href="interviews.html">Interviews</a><a
+                href="placement-process.html">Placement Process</a><a href="reports.html">Reports</a></nav>
+        <main>
+            <p class="muted"><a href="dashboard.html">Dashboard</a> / Candidates</p>
+            <h2>Candidate List</h2>
+            <section class="panel">
+                <h3>Filter Candidates</h3>
+                <div class="grid">
+                    <div><label>Candidate ID</label><input type="text" placeholder=""></div>
+                    <div><label>Candidate Name</label><input type="text" placeholder=""></div>
+                    <div><label>Mobile</label><input type="text" placeholder=""></div>
+                    <div><label>Email</label><input type="email" placeholder=""></div>
+                    <div><label>Technology</label><select>
+                            <option>All</option>
+                            <option>Java</option>
+                            <option>Python</option>
+                            <option>Testing</option>
+                            <option>Data Analytics</option>
+                        </select></div>
+                    <div><label>Passing Year</label><select>
+                            <option>All</option>
+                            <option>2025</option>
+                            <option>2026</option>
+                        </select></div>
+                    <div><label>Qualification</label><select>
+                            <option>All</option>
+                            <option>BE</option>
+                            <option>BTech</option>
+                            <option>MCA</option>
+                            <option>BSc</option>
+                        </select></div>
+                    <div><label>Placement Status</label><select>
+                            <option>All</option>
+                            <option>Active</option>
+                            <option>Placed</option>
+                            <option>On Hold</option>
+                            <option>Inactive</option>
+                        </select></div>
+                </div>
+                <button type="button">Search</button><button type="reset" class="secondary">Reset</button><a
+                    class="button" href="candidate-form.html">Add Candidate</a>
+            </section>
+            <div style='overflow-x:auto'>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Candidate ID</th>
+                            <th>Candidate Name</th>
+                            <th>Mobile</th>
+                            <th>Email</th>
+                            <th>Technology</th>
+                            <th>Qualification</th>
+                            <th>Passing Year</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CAN1001</td>
+                            <td>Rahul Patil</td>
+                            <td>9876543210</td>
+                            <td>rahul@example.com</td>
+                            <td>Java</td>
+                            <td>BE</td>
+                            <td>2025</td>
+                            <td>ACTIVE</td>
+                            <td><a href="candidate-details.html">View</a> | <a href="candidate-form.html">Edit</a></td>
+                        </tr>
+                        <tr>
+                            <td>CAN1002</td>
+                            <td>Priya Sharma</td>
+                            <td>9876543211</td>
+                            <td>priya@example.com</td>
+                            <td>Python</td>
+                            <td>BTech</td>
+                            <td>2025</td>
+                            <td>ACTIVE</td>
+                            <td><a href="candidate-details.html">View</a> | <a href="candidate-form.html">Edit</a></td>
+                        </tr>
+                        <tr>
+                            <td>CAN1003</td>
+                            <td>Amit Deshmukh</td>
+                            <td>9876543212</td>
+                            <td>amit@example.com</td>
+                            <td>Testing</td>
+                            <td>MCA</td>
+                            <td>2024</td>
+                            <td>PLACED</td>
+                            <td><a href="candidate-details.html">View</a> | <a href="candidate-form.html">Edit</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="muted">Pagination: <a href="candidates.html">Previous</a> | 1 | 2 | 3 | <a
+                    href="candidates.html">Next</a></p>
+        </main>
+    </div>
+    <footer>Kiran Academy | Recruitment &amp; Placement Management System | UI Prototype</footer>
+</body>
+
+</html>
