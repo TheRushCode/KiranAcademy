@@ -1,0 +1,61 @@
+AI Awareness Quiz 2026 — Direct Answers
+1. OpenAI
+2. Anthropic
+3. Google
+4. Meta
+5. xAI
+6. France
+7. GPT-6 Astra
+8. GPT-6.1 Sol
+9. Claude Haiku 5.5
+10. Not specified in the provided PDF
+11. Large Language Model
+12. AI that generates new content.
+13. An instruction given to an AI model.
+14. An instruction defining the AI's behaviour.
+15. Generating incorrect information as if it were true.
+16. A unit of text processed by an LLM.
+17. 
+18. Using a trained model to generate predictions or responses.
+19. training a pretrained model on specific data.
+20. AI that processes or generates multiple types of data.
+21. An AI system that can plan tasks and take actions to achieve goals.
+22. A chatbot responds to messages; an AI agent can also execute tasks.
+23. Retrieval-Augmented Generation.
+24. To provide relevant external information to an LLM.
+25. A numerical vector representing data.
+26. To store and search vector embeddings.
+27. To let an AI model use external tools or functions.
+28. Model Context Protocol.
+29. To authenticate or identify an application accessing an API.
+30. An AI workflow that performs multiple steps to achieve a goal.
+31. Images and artwork.
+32. Video generation.
+33. GPT-Image model family.
+34. Generating images from text descriptions.
+35. Generating videos from text descriptions.
+36. Text-to-Speech.
+37. Speech-to-Text.
+38. Extracting text from images or documents.
+39. An AI model that understands images and language.
+40. Reproducing a person's voice using AI.
+41. AI-assisted coding.
+42. AI-assisted software development.
+43. A tool that helps write, debug, and understand code.
+44. GPU.
+45. Graphics Processing Unit.
+46. Neural Processing Unit.
+47. Storing model data for GPU workloads.
+48. Running an AI model on your own device.
+49. A model whose trained weights are publicly available.
+50. Training a smaller model to imitate a larger model.
+51. GPT model family.
+52. GPT-6 Astra.
+53. Claude Opus 5.5.
+54. Claude Haiku 5.5.
+55. Not verified from the provided PDF.
+56. GPT-Image model family.
+57. GPT-Live model family.
+58. Anthropic.
+59. Prompt injection.
+60. Because AI can generate inaccurate that requires human verification.
